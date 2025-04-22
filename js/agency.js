@@ -39,4 +39,5 @@ $('div.modal').on('show.bs.modal', function() {
 $(window).on('scroll', function () {
     let scrollTop = $(window).scrollTop();
     $('header').css('background-position', 'center ' + (-scrollTop * .34567899999) + 'px');
+    $('#portfolio').css('transform', 'translateY(' + (-scrollTop * 0.34567899999) + 'px)');
 });
