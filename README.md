@@ -28,3 +28,11 @@ View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-th
 
 =========
 For more details, read [documentation](http://jekyllrb.com/)
+
+=========
+Local Development
+
+Local stack can be found at http://127.0.0.1:4000/huongceo.github.io/
+
+    jekyll serve
+
