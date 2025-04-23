@@ -283,6 +283,8 @@ header .intro-text {
     padding-top: 400px;
     padding-bottom: 50px;
     text-shadow: 0.25px 0.25px 0.5px #d9aea1, -0.25px -0.25px 0.5px #d9aea1, 0.25px -0.25px 0.5px #d9aea1, -0.25px 0.25px 0.5px #d9aea1;
+    position: relative;
+    z-index: 1;
 }
 
 header .intro-text .intro-lead-in {
