@@ -1,6 +1,6 @@
- <!-- Portfolio Modals -->
+ <!-- services Modals -->
  {% for post in site.posts %}
-    <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="services-modal modal fade" id="servicesModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -29,17 +29,17 @@
                                         <div class="carousel-inner" role="listbox">
                                             {% for image in post.images %}
                                             <div class="item {% if forloop.first %}active{% endif %}">
-                                                <img src="img/portfolio/{{ image.img }}" alt="{{ post.title }}" class="img-responsive img-centered">
+                                                <img src="img/services/{{ image.img }}" alt="{{ post.title }}" class="img-responsive img-centered">
                                             </div>
                                             {% endfor %}
                                             <!-- <div class="item active">
-                                                <img src="img/portfolio/natural-1.jpg"  class="img-responsive img-centered" alt="">
+                                                <img src="img/services/natural-1.jpg"  class="img-responsive img-centered" alt="">
                                             </div>
                                             <div class="item">
-                                                <img src="img/portfolio/natural-2.jpg" class="img-responsive img-centered" alt="">
+                                                <img src="img/services/natural-2.jpg" class="img-responsive img-centered" alt="">
                                             </div>
                                             <div class="item">
-                                                <img src="img/portfolio/natural-3.jpg" class="img-responsive img-centered" alt="">
+                                                <img src="img/services/natural-3.jpg" class="img-responsive img-centered" alt="">
                                             </div> -->
                                         </div>
                                     </div>
